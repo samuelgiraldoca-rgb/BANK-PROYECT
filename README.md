@@ -29,9 +29,9 @@ operaciones basicas sobre ellos. Su función es servir de base para las transacc
 
 
 ### CheckingAccount
-En esta clase se definen las cuentas corrientes del sistema. En esta cuenta se permite manejar un límite de sobregiro, lo
-que significa que el usuario puede retirar más dinero del que tiene disponible hasta cierto límite.
-También se puede encontrar  el método que gestiona los retiros de dinero y el registro de las transacciones correspondientes.
+En esta clase se definen las cuentas corrientes del sistema. En esta cuenta se permite manejar un limite de sobregiro, lo
+que significa que el usuario puede retirar mas dinero del que tiene disponible hasta cierto limite.
+Tambien se puede encontrar  el método que gestiona los retiros de dinero y el registro de las transacciones correspondientes.
 
 
 
