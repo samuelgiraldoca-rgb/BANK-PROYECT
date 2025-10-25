@@ -16,6 +16,9 @@ parte lógica del programa donde se definen los objetos reales del banco.
 ### Account
 Esta clase es el modelo base de todas las cuentas bancarias. Guarda el dueño, el saldo y las transacciones. No se puede usar directamente
 porque es abstracta, pero sirve como plantilla para crear otros tipos de cuenta, como las de ahorro o corriente.
+
+
+
 <img width="641" height="418" alt="image" src="https://github.com/user-attachments/assets/8a3ffbf2-351e-4db0-b73a-017a7f733012" />
 
 ### -Money
