@@ -25,6 +25,9 @@ porque es abstracta, pero sirve como plantilla para crear otros tipos de cuenta,
 
 Esta clase representa el concepto de dinero dentro del sistema. Contiene atributos como el monto y la moneda, y permite realizar 
 operaciones basicas sobre ellos. Su función es servir de base para las transacciones y los saldos de las cuentas.
+
+
+
 <img width="480" height="323" alt="image" src="https://github.com/user-attachments/assets/26f49c9f-ac53-4774-9dbf-21aa9f8c611a" />
 
 
