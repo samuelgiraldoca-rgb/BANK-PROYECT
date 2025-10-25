@@ -1,5 +1,5 @@
 # BANK-PROJECT
-- Este proyecto consiste en el desarrollo de una aplicación bancaria construida como una API REST utilizando Spring Boot y Java. El 
+- Este proyecto consiste en el desarrollo de una aplicacion bancaria construida como una API REST utilizando Spring Boot y Java. El 
 objetivo principal es ofrecer una simulación funcional de un sistema bancario capaz de gestionar clientes, cuentas y operaciones
 ---
 ### Desarrollo
