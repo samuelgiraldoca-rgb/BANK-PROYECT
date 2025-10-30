@@ -1,12 +1,9 @@
 # BANK-PROJECT
-- Este proyecto consiste en el desarrollo de una aplicacion bancaria construida como una API REST utilizando Spring Boot y Java. El 
-objetivo principal es ofrecer una simulación funcional de un sistema bancario capaz de gestionar clientes, cuentas y operaciones
+- Este proyecto es una simulación de una aplicación bancaria hecha como una API REST usando Spring Boot y Java. La idea es que se puedan manejar clientes, cuentas (corriente y de ahorros), y operaciones como depósitos, retiros y aplicación de intereses.
 ---
 ### Desarrollo
 
-- Fue configurado en Visual Studio Code, aprovechando varias extensiones que 
-facilitan el desarrollo con Java y Spring Boot. Estas extensiones permiten depurar el código, gestionar
-dependencias y ejecutar la aplicación directamente desde el editor.
+- Lo trabajé en Visual Studio Code con extensiones para Java y Spring Boot que me ayudaron bastante para correr el proyecto, depurar y manejar dependencias. Todo está organizado en paquetes que representan la lógica del banco.
 
 ### El proyecto se organiza en diferentes paquetes principales
 - Todos están relacionadas entre si, por eso deben estar dentro del mismo package. Este paquete representa la 
@@ -74,6 +71,8 @@ Nos vamos a ir al thunder y lo probamos de esta forma:
 
 -En el navegador vamos a colocar http://localhost:8080/api/bank/customers, si esta correcto se va a mostrar:
 <img width="367" height="49" alt="image" src="https://github.com/user-attachments/assets/07135b89-f699-476d-bf5a-b005ad9d18f6" />
+
+
 
 
 - Este es uno de los varios metodos que se pueden crear, como crear cuenta corriente, buscar cuenta por id, etc.
