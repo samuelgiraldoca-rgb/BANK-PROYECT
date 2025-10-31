@@ -5,6 +5,24 @@
 
 - Lo trabajé en Visual Studio Code con extensiones para Java y Spring Boot que me ayudaron bastante para correr el proyecto, depurar y manejar dependencias. Todo está organizado en paquetes que representan la lógica del banco.
 
+### Estructura
+bank-app/
+├── src/
+│   ├── main/java/com/appbank/
+│   │   ├── app/           # Clase principal
+│   │   ├── model/         # Entidades (Customer, Account, Money, Transaction)
+│   │   ├── service/       # Lógica de negocio
+│   │   ├── repository/    # Persistencia en JSON
+│   │   ├── controller/    # Endpoints REST
+│   │   ├── exception/     # Excepciones personalizadas
+│   │   └── config/        # Configuración Swagger
+│   └── resources/
+│       ├── application.properties
+│       └── data/
+│           ├── customers.json
+│           └── accounts.json
+└── pom.xml
+
 ### El proyecto se organiza en diferentes paquetes principales
 - Todos están relacionadas entre si, por eso deben estar dentro del mismo package. Este paquete representa la 
 parte lógica del programa donde se definen los objetos reales del banco.
