@@ -91,6 +91,16 @@ Nos vamos a ir al thunder y lo probamos de esta forma:
 -En el navegador vamos a colocar http://localhost:8080/api/bank/customers, si esta correcto se va a mostrar:
 <img width="367" height="49" alt="image" src="https://github.com/user-attachments/assets/07135b89-f699-476d-bf5a-b005ad9d18f6" />
 
+### ENDPOINTS
+POST /api/bank/customers → Crear cliente
+GET /api/bank/customers → Listar clientes
+GET /api/bank/customers/{id} → Consultar cliente por ID
+{
+  "id": "1",
+  "name": "Juan Pérez",
+  "email": "juan@example.com"
+}
+
 
 
 
