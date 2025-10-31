@@ -140,9 +140,17 @@ Para facilitar las pruebas y entender mejor cómo funciona la API, integré Swag
 
 Además, Swagger genera automáticamente un archivo en formato JSON con toda la documentación técnica de la API, lo que puede servir para futuras integraciones o como referencia para otros desarrolladores.
 
-🔗 ¿Dónde se accede?
+### ¿Dónde se accede?
 Una vez que la aplicación está corriendo, se puede entrar a:
 
 Swagger UI (interfaz visual para probar los endpoints): http://localhost:8080/swagger-ui/index.html
 
-Documentación en formato JSON (OpenAPI): http://localhost:8080/v3/api-docs
+### Documentación en formato JSON (OpenAPI): http://localhost:8080/v3/api-docs
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Application Bank",
+    "version": "1.0.0",
+    "description": "API REST para operaciones bancarias"
+  }
+}
