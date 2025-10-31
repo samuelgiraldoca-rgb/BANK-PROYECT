@@ -126,7 +126,7 @@ Ejemplo de listar clientes (GET /api/bank/customers)
     "interestRate": 0.10
   }
   ```
-
+```text
   {
     "id": "A002",
     "customerId": "2",
@@ -134,3 +134,15 @@ Ejemplo de listar clientes (GET /api/bank/customers)
     "balance": { "amount": 7000000.0, "currency": "COP" },
     "overdraftLimit": 200.0
   }
+```
+
+Para facilitar las pruebas y entender mejor cómo funciona la API, integré Swagger en el proyecto. Esta herramienta permite ver todos los endpoints disponibles y probarlos directamente desde el navegador, sin necesidad de usar Postman o Thunder Client.
+
+Además, Swagger genera automáticamente un archivo en formato JSON con toda la documentación técnica de la API, lo que puede servir para futuras integraciones o como referencia para otros desarrolladores.
+
+🔗 ¿Dónde se accede?
+Una vez que la aplicación está corriendo, se puede entrar a:
+
+Swagger UI (interfaz visual para probar los endpoints): http://localhost:8080/swagger-ui/index.html
+
+Documentación en formato JSON (OpenAPI): http://localhost:8080/v3/api-docs
