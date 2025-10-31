@@ -107,3 +107,10 @@ GET /api/bank/customers/{id} → Consultar cliente por ID
 - Este es uno de los varios metodos que se pueden crear, como crear cuenta corriente, buscar cuenta por id, etc.
 - Es un proyecto muy bien estructurado y es funcional. Para ser un proyecto de aula esta muy avanzado y se puede llevar mas alla.
 Ejemplo de listar clientes (GET /api/bank/customers)
+
+### Ejemplo de creación de cuenta corriente (POST /api/bank/customers/{id}/accounts)
+{
+  "type": "savings",
+  "balance": { "amount": 600000.0, "currency": "COP" },
+  "interestRate": 0.10
+}
