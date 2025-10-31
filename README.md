@@ -96,9 +96,9 @@ POST /api/bank/customers → Crear cliente
 GET /api/bank/customers → Listar clientes
 GET /api/bank/customers/{id} → Consultar cliente por ID
 {
-  "id": "1",
-  "name": "Juan Pérez",
-  "email": "juan@example.com"
+  "id": "5",
+  "name": "Isabel Ospina",
+  "email": "IsaOsp@example.com"
 }
 
 
