@@ -109,8 +109,28 @@ GET /api/bank/customers/{id} → Consultar cliente por ID
 Ejemplo de listar clientes (GET /api/bank/customers)
 
 ### Ejemplo de creación de cuenta corriente (POST /api/bank/customers/{id}/accounts)
+```text
 {
   "type": "savings",
   "balance": { "amount": 600000.0, "currency": "COP" },
   "interestRate": 0.10
 }
+```
+### Ejemplo de listado de cuentas (GET /api/bank/accounts)
+```text
+  {
+    "id": "A001",
+    "customerId": "1",
+    "type": "savings",
+    "balance": { "amount": 900000000.0, "currency": "COP" },
+    "interestRate": 0.10
+  }
+  ```
+
+  {
+    "id": "A002",
+    "customerId": "2",
+    "type": "checking",
+    "balance": { "amount": 7000000.0, "currency": "COP" },
+    "overdraftLimit": 200.0
+  }
